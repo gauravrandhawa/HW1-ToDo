@@ -16,8 +16,19 @@
     padding-right: 5px;
 }
 
-.pagebody-content{
+.welcome-content{
     text-align: center;
+}
+
+.pagebody-content{
+    background-color: #aaaaff;
+    /*border-color: #7777DD;
+    border-style: solid;
+    border-width: 2px;*/
+}
+
+.todolist-table{
+    background-color: white;
 }
 
 /* Bootstrap style overrides ===> NAVBAR */

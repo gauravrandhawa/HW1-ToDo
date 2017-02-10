@@ -14,7 +14,8 @@
         <script src="../js/bootstrap.js"></script>
         <script src="../js/jquery-3.1.1.js"></script>
     </head>
-    <body>
+    <body class="pagebody-content">
+        <!-- Webapp Navbar with ALL lists selected -->
         <nav class="navbar todolist-navbar">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -32,8 +33,32 @@
             </div>
         </nav>
 
-        <div class="pagebody-content">
-            <a href="../index.jsp"><h1>Return to Main</h1></a>
+        <!-- ALL Lists Page Content Starts HERE -->
+        <div class="container-fluid">
+            <h2>All ToDo Lists</h2>
+            <p>Click on a ToDo List in the table below to view it.</p>
+            <table class="table table-hover table-bordered todolist-table">
+                <thead>
+                <tr>
+                    <th>List Name</th>
+                    <th>Owner</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Sample List 1</td>
+                    <td>Sample Owner 1</td>
+                </tr>
+                <tr>
+                    <td>Sample List 2</td>
+                    <td>Sample Owner 1</td>
+                </tr>
+                <tr>
+                    <td>Sample List 3</td>
+                    <td>Sample Owner 2</td>
+                </tr>
+                </tbody>
+            </table>
         </div>
 
     </body>

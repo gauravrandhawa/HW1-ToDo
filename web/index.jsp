@@ -26,7 +26,7 @@
             </div>
         </nav>
 
-        <div class="pagebody-content">
+        <div class="welcome-content">
             <h1>Welcome to the ToDoList WebApp!!!</h1>
 
             To begin, please login.
