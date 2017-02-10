@@ -11,16 +11,27 @@
         <title>ToDoList WebApp</title>
         <link rel = "stylesheet" type = "text/css" href="../css/bootstrap.css" />
         <link rel = "stylesheet" type = "text/css" href="../css/main-styles.css" />
+        <script src="../js/bootstrap.js"></script>
+        <script src="../js/jquery-3.1.1.js"></script>
     </head>
     <body>
-        <div class="todolist-navbar">
-            <div class="todolist-navbar-item">
-                <h2>ToDoList</h2>
+        <nav class="navbar todolist-navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <em class="navbar-brand todolist-navbar-logo">ToDoList</em>
+                </div>
+                <p class="navbar-text">Lists To View:</p>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">All <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Public</a></li>
+                    <li><a href="#">Private</a></li>
+                </ul>
+                <div class="navbar-right">
+                    <a class="navbar-text" href="../index.jsp">LOGOUT</a>
+                </div>
             </div>
-            <div class="todolist-navbar-item">
-                <a href="../index.jsp"><h2>LOGOUT</h2></a>
-            </div>
-        </div>
+        </nav>
+
         <div class="pagebody-content">
             <a href="../index.jsp"><h1>Return to Main</h1></a>
         </div>
